@@ -44,10 +44,10 @@ int main(void)
 {
 	cfgPorts();
 	
-	turnOnRedLed;
+	turnOffRedLed;
 	turnOffBlueLed;
 	turnOffGreenLed;
-	delay(n1sec);
+	delay(n2sec);
 	
     for(;;)
     {
@@ -59,8 +59,8 @@ int main(void)
     	}
     	else
     	{
-    		turnOnRedLed;
-    		turnOffBlueLed;
+    		turnOffRedLed;
+    		turnOnBlueLed;
     		turnOffGreenLed;
     	}
     }
